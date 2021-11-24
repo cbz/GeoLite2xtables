@@ -41,10 +41,14 @@ foreach my $line (<$fh_in>){
 	my $code = $fields[0];
 	my $name = $fields[4];
 	my $id   = $fields[16];
+	next if ($id =~ /^\s*$/);
 	$countryinfo->{$id}->{'code'} = $code;
 	$countryinfo->{$id}->{'name'} = $name;
 }
 close $fh_in;
+
+# print map { "$_ => $countryinfo->{$_}->{'code'}\n" } keys %$countryinfo;
+# exit 1;
 
 # Convert actual GeoLite2 data from STDIN
 my $counter;

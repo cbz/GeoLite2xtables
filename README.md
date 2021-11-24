@@ -1,5 +1,8 @@
-# THIS PROJECT IS NOT BEING MAINTAINED. PLEASE FIX YOUR PRODUCTION ISSUES IN YOUR OWN FORK.
+# THIS PROJECT IS NOT BEING ACTIVELY MAINTAINED. PLEASE FIX YOUR PRODUCTION ISSUES IN YOUR OWN FORK.
 
+# THIS PROJECT HAS BEEN FIXED FOR ubuntu 18.04 with the instructions here 
+# https://ultramookie.com/2020/07/geoip-blocking/
+#
 # GeoLite2xtables
 
 This script aims to create a traditional GeoIP-CSV database from GeoIP's
